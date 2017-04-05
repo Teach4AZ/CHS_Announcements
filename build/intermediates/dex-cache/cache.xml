@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_7d9bc7b649260ad5fe7b3c2cfeb65cdd107ca44e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sam.CTE.001\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_cec68411e5e32384b6fa599262e33be2203641d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sam.CTE.001\.android\build-cache\7bddd68a408e731a2dacf1869b9afce81d746fe4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a2ff7ae2e781430bb974280471e8ffbb339b506\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9c4f0fb851a1374e6c777722db723f686b70dcc">
+        <dex dex="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_87bbd42d478eb384cdcb68ad7b931e1c72c81926\classes.dex" />
+    </item>
+
+</items>

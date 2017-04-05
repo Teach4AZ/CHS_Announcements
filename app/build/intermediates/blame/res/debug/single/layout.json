@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\build\\intermediates\\res\\merged\\debug\\layout\\announcements.xml",
+        "source": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\src\\main\\res\\layout\\announcements.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\build\\intermediates\\res\\merged\\debug\\layout\\webview.xml",
+        "source": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\src\\main\\res\\layout\\webview.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\build\\intermediates\\res\\merged\\debug\\layout\\weekly_newsletter.xml",
+        "source": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\src\\main\\res\\layout\\weekly_newsletter.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\build\\intermediates\\res\\merged\\debug\\layout\\teacher_pages.xml",
+        "source": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\src\\main\\res\\layout\\teacher_pages.xml"
+    },
+    {
+        "merged": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\src\\main\\res\\layout\\main.xml"
+    }
+]

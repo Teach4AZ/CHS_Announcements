@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:layout_editor_absoluteY="75dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:id="@+id/widget34"
+        android:layout_width="60dp"
+        android:layout_height="58dp"
+        android:src="@drawable/wolf5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/widget31"
+        android:layout_width="66dp"
+        android:layout_height="57dp"
+        android:src="@drawable/chandlerhs"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <Button
+        android:id="@+id/callAttendanceButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center_horizontal|center"
+        android:text="Call Attendance"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/callOfficeButton"
+        app:layout_constraintVertical_bias="0.0"></Button>
+
+    <TextView
+        android:id="@+id/widget37"
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="1dp"
+        android:background="@color/blue"
+        android:gravity="center_horizontal|center"
+        android:text="Chandler High School"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toRightOf="@+id/widget31"
+        app:layout_constraintRight_toLeftOf="@+id/widget34"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <Button
+        android:id="@+id/newsletterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Weekly Newsletter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/widget37" />
+
+    <Button
+        android:id="@+id/announcementsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Announcements"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newsletterButton" />
+
+    <Button
+        android:id="@+id/teacherPagesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Teacher Pages"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/announcementsButton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/callOfficeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Call Office"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacherPagesButton" />
+
+</android.support.constraint.ConstraintLayout>
+
+
