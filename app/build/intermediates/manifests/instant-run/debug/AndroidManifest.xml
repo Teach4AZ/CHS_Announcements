@@ -20,6 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="CHS_Announcements.jar.NewsletterActivity" />
 
         <service
             android:name="com.android.tools.fd.runtime.InstantRunService"

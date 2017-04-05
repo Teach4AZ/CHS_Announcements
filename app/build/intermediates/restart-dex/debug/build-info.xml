@@ -6,26 +6,29 @@
     density="560dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491349656894"
+    timestamp="1491413850308"
     token="1234970430634372436"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="127" />
+        duration="225" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="15" />
+        duration="72" />
     <task
         name="verifier"
-        duration="2" />
+        duration="7" />
 
     <artifact
         location="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
         type="SPLIT" />
+    <artifact
+        location="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -70,19 +73,14 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491348589046"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\outputs\apk\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1491349656894"
+        timestamp="1491413850308"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
+        <artifact
+            location="C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
