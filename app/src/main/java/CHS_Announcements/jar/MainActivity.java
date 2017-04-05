@@ -36,27 +36,5 @@ public class MainActivity extends Activity {
 
         });
     }
-    @Override
-    public void onBackPressed() {
-        if (webView.canGoBack()) {
-            webView.goBack();
-        } else {
-            if(webView != null)
-            {
-                setContentView(R.layout.main);
-                webView = null;
-            }
-            else this.finishActivity(0);
-        }
-    }
-
-    private void showWebPage()
-    {
-        setContentView(R.layout.webview);
-        webView = (WebView) findViewById(R.id.webView);
-        webView.setWebViewClient(new WebViewClient());
-        webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://www.smore.com/wdmg0");
-    }
 
 }
