@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
         teacherPagesButton = (Button) findViewById(R.id.teacherPagesButton);
         callOfficeButton = (Button) findViewById(R.id.callOfficeButton);
         callAttendanceButton = (Button) findViewById(R.id.callAttendanceButton);
+
         newsletterButton.setOnClickListener(new OnClickListener() {
 
             @Override
@@ -45,12 +46,27 @@ public class MainActivity extends Activity {
 
 
         });
+
         announcementsButton.setOnClickListener(new OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
 
                 Intent intent = new Intent(MainActivity.this,AnnouncementsActivity.class);
+                startActivity(intent);
+
+            }
+
+
+
+        });
+
+        teacherPagesButton.setOnClickListener(new OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+                Intent intent = new Intent(MainActivity.this,TeacherPagesActivity.class);
                 startActivity(intent);
 
             }

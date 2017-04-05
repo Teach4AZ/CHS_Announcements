@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml
@@ -20,7 +20,7 @@ ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\An
 	android:name
 		ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:7:22-64
 application
-ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:9:5-21:19
+ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:9:5-22:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sam.CTE.001\.android\build-cache\7bddd68a408e731a2dacf1869b9afce81d746fe4\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:9:18-50
@@ -48,6 +48,10 @@ activity#CHS_Announcements.jar.AnnouncementsActivity
 ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:20:9-68
 	android:name
 		ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:20:19-56
+activity#CHS_Announcements.jar.TeacherPagesActivity
+ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:21:9-67
+	android:name
+		ADDED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml:21:19-55
 uses-sdk
 INJECTED from C:\Users\sam.CTE.001\StudioProjects\CHS_Announcements\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\sam.CTE.001\.android\build-cache\7bddd68a408e731a2dacf1869b9afce81d746fe4\output\AndroidManifest.xml:5:5-7:41

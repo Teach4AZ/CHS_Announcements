@@ -9,7 +9,7 @@ import android.webkit.WebViewClient;
  * Created by sam on 4/5/2017.
  */
 
-public class NewsletterActivity extends Activity {
+public class TeacherPagesActivity extends Activity {
     private WebView webView;
 
     @Override
@@ -19,7 +19,7 @@ public class NewsletterActivity extends Activity {
         webView = (WebView) findViewById(R.id.webView);
         webView.setWebViewClient(new WebViewClient());
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://www.smore.com/wdmg0");
+        webView.loadUrl("http://cusd80.com/site/Default.aspx?PageType=1&SiteID=913&ChannelID=948&DirectoryType=6");
     }
     @Override
     public void onBackPressed()
@@ -29,4 +29,5 @@ public class NewsletterActivity extends Activity {
         else
             super.onBackPressed();
     }
+
 }

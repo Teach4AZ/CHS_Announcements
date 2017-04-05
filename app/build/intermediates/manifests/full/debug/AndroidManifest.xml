@@ -22,6 +22,7 @@
         </activity>
         <activity android:name="CHS_Announcements.jar.NewsletterActivity" />
         <activity android:name="CHS_Announcements.jar.AnnouncementsActivity" />
+        <activity android:name="CHS_Announcements.jar.TeacherPagesActivity" />
     </application>
 
 </manifest>

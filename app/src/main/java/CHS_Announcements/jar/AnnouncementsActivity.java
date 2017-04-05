@@ -21,4 +21,12 @@ public class AnnouncementsActivity extends Activity {
         webView.getSettings().setJavaScriptEnabled(true);
         webView.loadUrl("http://cusd80.com/site/default.aspx?PageType=14&DomainID=913&PageID=6389&ModuleInstanceID=10178&ViewID=606008db-225b-4ad2-8f7b-9ebac54372c1&IsMoreExpandedView=True");
     }
+    @Override
+    public void onBackPressed()
+    {
+        if(webView.canGoBack())
+            webView.goBack();
+        else
+            super.onBackPressed();
+    }
 }
