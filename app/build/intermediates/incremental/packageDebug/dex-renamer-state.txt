@@ -1,4 +1,4 @@
-#Wed Apr 05 10:37:32 GMT-07:00 2017
+#Wed Apr 05 11:06:32 GMT-07:00 2017
 base.0=C\:\\Users\\sam.CTE.001\\StudioProjects\\CHS_Announcements\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_7d9bc7b649260ad5fe7b3c2cfeb65cdd107ca44e
 renamed.1=classes2.dex
 renamed.0=classes.dex

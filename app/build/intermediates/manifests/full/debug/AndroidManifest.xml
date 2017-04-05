@@ -21,6 +21,7 @@
             </intent-filter>
         </activity>
         <activity android:name="CHS_Announcements.jar.NewsletterActivity" />
+        <activity android:name="CHS_Announcements.jar.AnnouncementsActivity" />
     </application>
 
 </manifest>
